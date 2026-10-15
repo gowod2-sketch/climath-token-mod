@@ -1,0 +1,7 @@
+{
+  "name": "climath-token-mod",
+  "owner": { "name": "climath" },
+  "plugins": [
+    { "name": "pm-usage", "source": "./pm-usage", "description": "세션 사용량(컨텍스트 %) 창 — /pm-usage" }
+  ]
+}

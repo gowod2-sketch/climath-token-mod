@@ -1,0 +1,14 @@
+{
+ "name": "pm-usage",
+ "version": "0.2.0",
+ "description": "세션 사용량 — 아래 줄에 MC 컨텍스트·5시간 한도, 옆 창에 PM 전원 컨텍스트 %(10분마다)",
+ "types": "./types/index.d.ts",
+ "userConfig": {
+  "sessions": {
+   "type": "string",
+   "title": "PM 세션 목록",
+   "description": "이름=세션주소 를 쉼표로. 예: TS=session_xxx,CL=session_yyy",
+   "default": ""
+  }
+ }
+}
